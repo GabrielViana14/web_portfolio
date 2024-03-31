@@ -375,7 +375,7 @@ span{
     background: var(--bg-color);
 }
 .skills .container{
-    background: #bc13ff70;
+    background: #9475f297;
     color: var(--text-color);
     border-radius: 1rem;
     padding: 2rem;
@@ -450,7 +450,7 @@ span{
     content: '';
     position: absolute;
     width: 6px;
-    background: #bc13ff70;
+    background: #9475f297;
     top: 0;
     bottom: 0;
     left: 50%;
