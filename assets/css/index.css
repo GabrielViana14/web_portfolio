@@ -531,6 +531,7 @@ span{
 .education .content .decs{
     margin-left: 1.5rem;
     padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .education .content .tag h2{
@@ -538,7 +539,7 @@ span{
     font-weight: 600;
 }
 .education .content .decs p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
