@@ -218,12 +218,14 @@ span{
     font-size: 34px;
     font-weight: 600;
     min-width: 280px;
+    overflow: hidden;
 }
 .typing-text span{
     position: relative;
+    overflow: hidden;
 }
 .typing-text span::before {
-    content: 'software developer';
+    content: '';
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -234,7 +236,7 @@ span{
     width: calc(100% + 8px);
     height: 100%;
     border-left: 3px solid var(--bg-color);
-    right: -8;
+    right: -3px;
     animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
 }
 @keyframes cursor {
@@ -247,16 +249,16 @@ span{
         content: 'Chatbot Developer';
     }
     21%, 40% {
-        content: 'software developer';
+        content: 'Software developer';
     }
     41%, 60% {
-        content: 'não sei';
+        content: 'Data analist';
     }
     61%, 80% {
         content: 'Desenhista';
     }
     81%, 100% {
-        content: 'ainda não sei';
+        content: 'Front-end Developer';
     }
 }
 
@@ -273,7 +275,7 @@ span{
     25%, 40%,
     45%, 60%,
     65%, 80%, 85%{
-        width: calc(100% + 8px);
+        width: calc(100% + 3px);
     }
 }
 
@@ -307,9 +309,9 @@ span{
 
 .services-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 10rem;
 }
 
 .service-box {
@@ -318,6 +320,7 @@ span{
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease;
+    overflow: auto;
 }
 
 .service-box:hover{
@@ -331,7 +334,7 @@ span{
     display: flex;
     flex-direction: column;
     text-align: left;
-    max-height: 200px;
+    max-height: 500px;
     justify-content: center;
     align-items: baseline;
     padding: 5em;
@@ -450,7 +453,7 @@ span{
     content: '';
     position: absolute;
     width: 6px;
-    background: #9475f297;
+    background: #bc13ff70;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -553,7 +556,7 @@ span{
     .education .container{
         width: 100%;
         padding-left: 8rem;
-        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .education .container::after{
         font-size: 2.2rem;
