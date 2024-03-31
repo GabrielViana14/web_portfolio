@@ -312,7 +312,7 @@ span{
 
 .service-box {
     background-color: var(--main-color);
-    height: 600px;
+    height: 500px;
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease;
@@ -342,7 +342,7 @@ span{
 }
 
 .service-info p{
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 400;
     max-height: 100px;
     margin: auto;
@@ -363,6 +363,7 @@ span{
     }
     .services-container{
         grid-template-columns: repeat(1,1fr);
+        font-size: 0.5rem;
     }
 }
 
