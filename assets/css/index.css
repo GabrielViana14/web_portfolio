@@ -321,6 +321,7 @@ span{
     cursor: pointer;
     transition: 0.3s ease;
     overflow-y: auto;
+    overflow-x:hidden;
 }
 
 .service-box:hover{
