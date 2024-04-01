@@ -61,6 +61,11 @@ function enviarEmail(){
                 text: "Mensagem enviada!",
                 icon: "success"
               });
+              nome.value="";
+              email.value="";
+              celular.value="";
+              assunto.value="";
+              mensagem.value="";
         }else{
             Swal.fire({
                 icon: "error",
